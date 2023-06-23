@@ -265,7 +265,10 @@ section {
 /*--------------------------------------------------------------
 # Featured Services Section
 --------------------------------------------------------------*/
-
+.featured {
+    text-align: center;
+    padding-left: 170px;
+}
 .featured p {
     font-family: var(--fontDefault);
 }
@@ -283,7 +286,7 @@ section {
 
 .featured-services .service-item .icon i {
     color: var(--corDefault);
-    font-size: 36px;
+    font-size: 50px;
     transition: 0.3s;
 }
 
@@ -465,6 +468,16 @@ section {
 @media (max-width: 992px) {
     .footer .footer-legal {
         padding: 10px;
+    }
+
+    .featured-services {
+        text-align: center;
+        margin-left: auto;
+    }
+
+    .featured {
+        text-align: center;
+        padding-left: 10%;
     }
 }
 
